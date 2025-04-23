@@ -1,4 +1,4 @@
-# ip_enrich
+# wsconvo_enrich (wireshark-convo-enrich)
 
 Small CLI to enrich Wireshark **Statistics → Conversations** CSV for a single target
 device.
