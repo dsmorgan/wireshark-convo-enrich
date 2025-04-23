@@ -17,7 +17,7 @@ python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 export ABUSEIPDB_KEY="your-api-key"
 
-python ip_enrich.py -c conversations.csv -t 10.0.0.42 \
+python wsconvo_enrich.py -c conversations.csv -t 10.0.0.42 \
         --heuristic \
         --with-geo --city-db ~/GeoLite2-City.mmdb --anon-db ~/GeoLite2-Anonymous-IP.mmdb \
         --with-reputation \
